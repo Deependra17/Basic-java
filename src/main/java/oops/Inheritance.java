@@ -9,17 +9,13 @@ public class Inheritance {
         this.age = age;
     }
 
-    static class SubClass extends Inheritance {
+    static class Single extends Inheritance {
+        String address;
 
-        SubClass(String name, int age) {
+        Single(String name, int age, String address) {
 
             super(name, age);
+            this.address = address;
         }
-    }
-
-    public static void main(String[] args) {
-        SubClass obj = new SubClass("Deepen", 24);
-        System.out.println(obj.name +" " + obj.age);
-
     }
 }

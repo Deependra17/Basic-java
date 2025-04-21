@@ -1,4 +1,4 @@
-package newcourse;
+package oops;
 
 public class Encapsulation { //Encapsulation
     private String name;
